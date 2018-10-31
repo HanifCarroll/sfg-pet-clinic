@@ -2,11 +2,12 @@ package com.hanifcarroll.sfgpetclinic.model;
 
 import java.time.LocalDate;
 
+
 public class Visit extends BaseEntity {
 
-    private LocalDate date;
-    private String description;
-    private Pet pet;
+    public LocalDate date;
+    public String description;
+    public Pet pet;
 
     public LocalDate getDate() {
         return date;

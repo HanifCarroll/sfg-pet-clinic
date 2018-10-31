@@ -1,16 +1,15 @@
 package com.hanifcarroll.sfgpetclinic.model;
 
-import javax.persistence.Entity;
 import java.util.HashSet;
 import java.util.Set;
 
-@Entity
+
 public class Owner extends Person {
 
-    private String address;
-    private String city;
-    private String telephone;
-    private Set<Pet> pets = new HashSet<>();
+    public String address;
+    public String city;
+    public String telephone;
+    public Set<Pet> pets = new HashSet<>();
 
     public String getAddress() {
         return address;

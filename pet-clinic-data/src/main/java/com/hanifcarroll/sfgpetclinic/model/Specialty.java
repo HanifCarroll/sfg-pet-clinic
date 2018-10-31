@@ -2,7 +2,7 @@ package com.hanifcarroll.sfgpetclinic.model;
 
 public class Specialty extends BaseEntity {
 
-    private String description;
+    public String description;
 
     public String getDescription() {
         return description;

@@ -1,12 +1,9 @@
 package com.hanifcarroll.sfgpetclinic.model;
 
-import javax.persistence.Entity;
-
-@Entity
 public class Person extends BaseEntity{
 
-    private String firstName;
-    private String lastName;
+    public String firstName;
+    public String lastName;
 
     public String getFirstName() {
         return firstName;

@@ -1,15 +1,14 @@
 package com.hanifcarroll.sfgpetclinic.model;
 
-import javax.persistence.Entity;
 import java.time.LocalDate;
 
-@Entity
+
 public class Pet extends BaseEntity{
 
-    private String name;
-    private PetType petType;
-    private Owner owner;
-    private LocalDate birthDate;
+    public String name;
+    public PetType petType;
+    public Owner owner;
+    public LocalDate birthDate;
 
     public String getName() {
         return name;
