@@ -1,9 +1,10 @@
-package com.hanifcarroll.sfgpetclinic.services;
+package com.hanifcarroll.sfgpetclinic.services.springdatajpa;
 
 import com.hanifcarroll.sfgpetclinic.model.Owner;
 import com.hanifcarroll.sfgpetclinic.repositories.OwnerRepository;
 import com.hanifcarroll.sfgpetclinic.repositories.PetRepository;
 import com.hanifcarroll.sfgpetclinic.repositories.PetTypeRepository;
+import com.hanifcarroll.sfgpetclinic.services.OwnerService;
 import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
